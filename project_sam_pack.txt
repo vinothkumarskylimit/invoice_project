@@ -1,0 +1,75 @@
+1. PDF to IMAGE Packages:
+
+PyPDF2
+is a pure-Python PDF library that can be used to read, write, merge, and split PDF files. It is a very popular library and has been around for a long time.
+PDFMiner.six
+is a Python package that can be used to extract data from PDF files, including text, images, and tables. It is a very powerful library, but it can be complex to use.
+pdfplumber
+is a Python package that can be used to read, write, and manipulate PDF files. It is a relatively new library, but it is quickly gaining popularity. It is easy to use and has a lot of features.
+Camelot
+is a Python package that can be used to extract tables from PDF files. It is a very powerful library and can be used to extract tables from complex PDF layouts.
+
+
+
+
+2. Image To DOC :
+
+NumPy: A library for scientific computing with Python.
+Pandas: A library for data manipulation and analysis.
+Matplotlib: A library for data visualization.
+Seaborn: A library for statistical graphics.
+Scikit-learn: A library for machine learning.
+TensorFlow: A library for deep learning.
+SQLAlchemy: A library for interacting with relational databases.
+OpenCV: A library for computer vision.
+Pillow: A library for image processing.
+PyTorch: A library for deep learning.
+
+
+3. Doc to Pdf :
+
+PyPDF2:
+This is a free and open-source library that allows you to manipulate PDF files, including merging, splitting, and rotating pages. It can also be used to add watermarks and extract text from PDFs.
+ReportLab:
+This is a more complex library that allows you to create custom PDF reports from scratch. It has a wide range of features, including support for tables, charts, and graphs.
+WeasyPrint:
+This is a lightweight library that can be used to render HTML to PDF. It is easy to use and has a number of features that make it ideal for creating professional-looking PDFs.
+
+
+4. data to xls:
+
+openpyxl:
+This package is designed to read and write Excel files. It is one of the most popular Python packages for working with Excel files.
+pandas:
+This package provides easy-to-use data structures and data analysis tools for the Python programming language. It can also be used to convert data to XLS.
+xlrd:
+This package is a library for reading data and formatting information from Excel files.
+xlsxwriter:
+This package is a Python module for creating Excel XLSX files. It provides various formatting options, charts, textboxes, Rich multi-format strings, Macros for excel files.
+
+
+5.pdf fetch table data:
+
+pdfplumber:
+Pros: Good for extracting text and table data. Provides accurate text extraction and table parsing.
+Cons: Might not handle complex PDF structures perfectly.
+
+PyPDF2:
+Pros: Simple and effective for basic text extraction.
+Cons: Not ideal for table extraction or handling complex PDF structures.
+
+Tabula or tabula-py:
+Pros: Specialized for extracting tables from PDFs.
+Cons: Might require additional processing for complex table structures.
+
+Camelot:
+Pros: Focuses on table extraction and handling various table structures.
+Cons: May require fine-tuning and preprocessing for specific types of tables.
+
+Tika:
+Pros: Supports extraction of both text and metadata from PDFs.
+Cons: Might require more manual preprocessing for structured data extraction.
+
+PDFMiner:
+Pros: Provides detailed access to PDF content.
+Cons: Might require more complex code and manual processing compared to higher-level libraries.

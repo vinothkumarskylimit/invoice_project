@@ -1,0 +1,43 @@
+1.Input Files:
+
+	Editable PDF
+	Non Editable PDF (image placed pdf)
+	xls
+	Doc
+	txt
+	img
+
+2.check the file type:
+
+3.if file extns is EditablePDF -> covert to doc -> using regex fetching the company name,UTR no,account num ->then using tabula fetch the table details
+
+4.if file extns is Non Editable PDF -> covert to doc -> using regex fetching the company name,UTR no,account num -> convert to the editable PDF ->then using tabula fetch the table details
+
+5.if file extns is xls -> covert to doc -> using regex fetching the company name,UTR no,account num -> convert to the editable PDF ->then using tabula fetch the table details
+
+6.if file extn is doc -> using regex fetching the company name,UTR no,account num -> convert to the editable PDF ->then using tabula fetch the table details
+
+7.if file extn is txt -> covert to doc -> using regex fetching the company name,UTR no,account num -> convert to the editable PDF ->then using tabula fetch the table details
+
+8.if file extn is img -> using OCR convert to doc  -> using regex fetching the company name,UTR no,account num -> convert to the editable PDF ->then using tabula fetch the table details
+
+9.expected outputs (company name,UTR no,account no,table header & value)
+
+10. all data pass to xls file
+
+
+
+
+create function:
+	pdf_to_img(file) -> package - > PyPDF2,PDFMiner.six,pdfplumber,Camelot
+	img_to_doc(file) -> package - > PyTorch,Pandas,Matplotlib,Seaborn,Scikit-learn,TensorFlow,SQLAlchemy,OpenCV,Pillow,PyTorch
+	search_regex(string) - > Regular Expression
+	doc_to_editpdf(file) -> package - > PyPDF2,ReportLab,WeasyPrint
+	editpdf_fetch_table(file) -> package - > Tabula,PyPDF2,Tika,Textract,PyMuPDF,PDFtotext,PDFminer
+	data_to_xls() -> package - >  openpyxl,pandas,xlrd,xlsxwriter
+
+project version:
+	
+
+
+
