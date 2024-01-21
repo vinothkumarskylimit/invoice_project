@@ -25,5 +25,7 @@ predicted_image = prediction_groups[0]
 print("hello")
 for text, box in predicted_image:
     print(text)
+# Dineshchanges
+    print("chennai")
 # final changesz
     print("worl")
