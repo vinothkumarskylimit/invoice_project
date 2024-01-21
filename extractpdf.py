@@ -21,8 +21,11 @@ images = keras_ocr.tools.read(image1)
 # generate text predictions from the images
 prediction_groups = pipeline.recognize([images])
 predicted_image = prediction_groups[0]
-
+# final changes
+print("hello")
 for text, box in predicted_image:
     print(text)
 # Dineshchanges
     print("chennai")
+# final changesz
+    print("worl")
